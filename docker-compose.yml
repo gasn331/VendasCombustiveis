@@ -1,0 +1,83 @@
+services:
+  mongodb:
+    image: mongo:4.4.6
+    container_name: mongodb_container
+    environment:
+      MONGO_INITDB_DATABASE: vendas_combustiveis
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+      - ./mongo-init:/docker-entrypoint-initdb.d
+    networks:
+      - vendas_combustiveis_network
+
+  spark:
+    image: bitnami/spark:3.5.3
+    environment:
+      - SPARK_MODE=master
+      - JAVA_HOME=/opt/bitnami/java
+      - SPARK_MONGODB_URI=mongodb://mongodb_container:27017/vendas_combustiveis
+    ports:
+      - "7077:7077"
+      - "8080:8080"
+    volumes:
+      - ./spark_data:/opt/spark/work-dir
+    networks:
+      - vendas_combustiveis_network
+
+  spark-worker:
+    image: bitnami/spark:3.5.3
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark:7077
+      - JAVA_HOME=/opt/bitnami/java
+    depends_on:
+      - spark
+    networks:
+      - vendas_combustiveis_network
+
+  spark-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    ports:
+      - "8081:8080"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - JAVA_HOME=/opt/bitnami/java
+      - SPARK_MONGODB_URI=mongodb://mongodb_container:27017/vendas_combustiveis
+    entrypoint: ["spark-submit",
+      "--packages", "org.mongodb.spark:mongo-spark-connector_2.12:10.4.0",
+      "/app/spark_consumer/consumer.py"]
+    depends_on:
+      - spark
+      - mongodb
+    networks:
+      - vendas_combustiveis_network
+
+  analise_visualizacao_dash:
+    build:
+      context: ./analise_visualizacao_dash
+    ports:
+      - 8050:8050
+    container_name: dash_app
+    volumes:
+      - ./analise_visualizacao_dash:/app
+    networks:
+      - vendas_combustiveis_network
+    stdin_open: true  # Para permitir a entrada de comandos
+    tty: true  # Para manter o terminal aberto
+    depends_on:
+      - spark-app  # Opcional, caso precise do Spark
+      - mongodb
+
+volumes:
+  mongo_data:
+    driver: local
+
+networks:
+  vendas_combustiveis_network:
+    driver: bridge

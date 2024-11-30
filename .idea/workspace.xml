@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d759d31-5d37-44f8-87e5-5c2cf1cff119" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analise_visualizacao_dash/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AnaliseDeDiscursoReddit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AnaliseDeDiscursoReddit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/.metadata.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.0.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.1.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.10.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.11.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.12.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.13.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.14.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.15.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.16.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.17.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.18.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.19.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.2.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.20.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.21.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.22.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.23.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.24.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.25.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.26.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.27.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.28.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.29.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.3.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.30.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.31.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.32.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.33.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.34.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.35.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.36.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.37.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.38.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.39.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.4.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.40.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.41.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.42.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.43.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.44.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.45.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.46.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.47.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.48.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.49.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.5.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.50.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.51.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.52.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.53.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.54.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.55.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.56.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.57.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.58.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.59.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.6.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.60.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.61.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.62.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.63.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.64.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.65.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.66.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.67.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.68.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.69.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.7.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.70.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.71.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.72.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.73.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.74.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.75.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.76.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.77.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.78.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.79.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.8.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.80.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.81.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.82.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.83.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.84.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.85.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.86.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.87.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.88.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.89.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.9.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.90.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.91.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.92.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.93.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.94.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.95.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.96.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/.97.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/29" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/39" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/40" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/42" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/43" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/48" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/51" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/52" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/55" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/56" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/57" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/58" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/62" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/63" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/65" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/66" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/67" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/68" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/70" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/71" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/72" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/73" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/74" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/76" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/77" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/79" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/80" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/81" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/82" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/83" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/85" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/86" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/87" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/88" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/89" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/90" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/91" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/92" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/93" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/94" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/95" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/commits/97" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/..68.6e97581f-5757-4bc5-a713-dfc9b41b17c4.tmp.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.0.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.1.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.10.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.11.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.12.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.13.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.14.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.15.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.16.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.17.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.18.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.19.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.2.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.20.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.21.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.22.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.23.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.24.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.25.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.26.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.27.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.28.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.29.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.3.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.30.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.31.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.32.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.33.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.34.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.35.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.36.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.37.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.38.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.39.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.4.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.40.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.41.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.42.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.43.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.44.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.45.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.46.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.47.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.48.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.49.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.5.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.50.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.51.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.52.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.53.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.54.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.55.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.56.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.57.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.58.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.59.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.6.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.60.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.61.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.62.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.63.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.64.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.65.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.66.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.67.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.69.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.7.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.70.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.71.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.72.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.73.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.74.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.75.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.76.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.77.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.78.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.79.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.8.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.80.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.81.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.82.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.83.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.84.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.85.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.86.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.87.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.88.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.89.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.9.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.90.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.91.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.92.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.93.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.94.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.95.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.96.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/.97.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/29" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/39" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/40" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/42" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/43" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/48" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/51" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/52" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/55" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/56" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/57" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/58" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/62" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/63" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/65" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/66" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/67" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/68" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/70" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/71" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/72" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/73" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/74" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/76" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/77" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/79" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/80" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/81" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/82" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/83" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/85" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/86" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/87" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/88" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/89" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/90" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/91" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/92" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/93" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/94" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/95" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/offsets/97" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/sources/0/.0.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/comments/sources/0/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/.metadata.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/.0.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/.1.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/.10.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/.11.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/.12.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/.13.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/.14.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/.15.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/.16.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/.17.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/.2.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/.3.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/.4.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/.5.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/.6.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/.7.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/.8.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/.9.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/commits/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/.0.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/.1.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/.10.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/.11.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/.12.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/.13.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/.14.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/.15.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/.16.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/.17.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/.2.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/.3.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/.4.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/.5.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/.6.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/.7.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/.8.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/.9.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/offsets/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/sources/0/.0.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/posts/sources/0/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/mongodb.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/mongodb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka_producer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/analise_visualizacao_dash/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka_producer/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka_producer/producer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo-init/init-mongo.js" beforeDir="false" afterPath="$PROJECT_DIR$/mongo-init/init-mongo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/odio_words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_consumer/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/spark_consumer/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_consumer/consumer.py" beforeDir="false" afterPath="$PROJECT_DIR$/spark_consumer/consumer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_consumer/consumerSparkMongoDB.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_consumer/nlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_consumer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_mongodb.py" beforeDir="false" afterPath="$PROJECT_DIR$/analise_visualizacao_dash/assets/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_nlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_producer.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2mfgKvx4SqmBh6h1yXsYv8mlYuI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Repositorios/VendasCombustiveis/analise_visualizacao_dash&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Repositorios\VendasCombustiveis\analise_visualizacao_dash" />
+      <recent name="D:\Repositorios\AnaliseDeDiscursoReddit\spark_consumer" />
+      <recent name="D:\Repositorios\AnaliseDeDiscursoReddit" />
+      <recent name="D:\Repositorios\AnaliseDeDiscursoReddit\tests" />
+      <recent name="D:\Repositorios\AnaliseDeDiscursoReddit\database" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="AnaliseDeDiscursoReddit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" editBeforeRun="true" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Python.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d759d31-5d37-44f8-87e5-5c2cf1cff119" name="Changes" comment="" />
+      <created>1727472984103</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727472984103</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kafka_producer/producer.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kafka_producer/producer.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spark_consumer/consumer.py</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analise_visualizacao_dash/app.py</url>
+          <line>145</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+/* Ajusta o contêiner externo */
+.custom-dropdown {
+    width: 50% !important;
+}
+
+/* Ajusta o campo de entrada para manter o alinhamento */
+.custom-dropdown .Select-menu-outer {
+    width: 50% !important;
+}
